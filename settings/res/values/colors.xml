@@ -28,4 +28,10 @@
     <!-- crDroid Settings -->
     <color name="config_tab_color">@*android:color/black</color>
     <color name="config_tab_text_color">@*android:color/secondary_text_default_material_dark</color>
+
+    <!-- MSIM Color picker dialog colors -->
+    <color name="sim_color_picker_edit_text_color">@android:color/white</color>
+    <color name="sim_color_picker_list_text_color">@android:color/white</color>
+    <color name="sim_color_picker_carrier_text_color">@android:color/white</color>
+    <color name="sim_color_picker_number_text_color">@android:color/white</color>
 </resources>
