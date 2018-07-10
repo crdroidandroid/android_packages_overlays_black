@@ -21,7 +21,9 @@
         <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
         <item name="android:colorControlNormal">?android:attr/textColorPrimary</item>
-        <item name="android:colorBackgroundFloating">@*android:color/material_grey_900</item>
+        <item name="android:colorBackgroundFloating">@*android:color/black</item>
+        <item name="android:dialogTheme">@*android:style/Theme.Material.Settings.BaseDialog</item>
+        <item name="android:alertDialogTheme">@*android:style/Theme.Material.Settings.Dialog.BaseAlert</item>
     </style>
 
     <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@*android:style/Theme.DeviceDefault.Dialog">
@@ -29,6 +31,7 @@
         <item name="android:colorPrimaryDark">@*android:color/black</item>
         <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Settings" parent="@*android:style/Theme.Material">
@@ -42,30 +45,39 @@
         <item name="android:navigationBarColor">@*android:color/black</item>
         <item name="android:textColorPrimaryInverse">@*android:color/black</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:dialogTheme">@*android:style/Theme.Material.Settings.BaseDialog</item>
+        <item name="android:alertDialogTheme">@*android:style/Theme.Material.Settings.Dialog.BaseAlert</item>
     </style>
 
     <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Material.BaseDialog">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Material.CompactMenu">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
+        <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Material.Dialog.BaseAlert">
         <item name="android:colorPrimaryDark">@*android:color/black</item>
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorSecondary">@*android:color/black</item>
+        <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.Material.Settings.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
+        <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">
@@ -77,7 +89,9 @@
     <style name="Theme.Material.Settings.Dialog.Presentation" parent="@*android:style/Theme.Material.Dialog.Presentation">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
+        <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@*android:style/Theme.Material.Dialog">
@@ -95,6 +109,7 @@
         <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
         <item name="android:colorControlNormal">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@*android:style/Theme.Material.Dialog.Alert">
@@ -112,6 +127,7 @@
         <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
         <item name="android:colorControlNormal">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.System" parent="@*android:style/Theme.Material">
@@ -127,8 +143,9 @@
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
         <item name="android:colorSecondary">@*android:color/black</item>
-        <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
         <item name="android:colorControlNormal">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@*android:style/Theme.Material.Dialog.MinWidth">
@@ -142,6 +159,7 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@*android:style/Theme.Material.Dialog.NoActionBar">
@@ -155,6 +173,7 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@*android:style/Theme.Material.Dialog.NoActionBar.MinWidth">
@@ -168,6 +187,7 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.FixedSize" parent="@*android:style/Theme.Material" >
@@ -185,6 +205,7 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.FixedSize" parent="@*android:style/Theme.Material" >
@@ -202,6 +223,7 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@*android:style/Theme.Material.DialogWhenLarge">
@@ -215,6 +237,7 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@*android:style/Theme.Material.DialogWhenLarge.NoActionBar">
@@ -228,6 +251,7 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@*android:style/Theme.Material.Dialog.Presentation">
@@ -241,24 +265,32 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Panel" parent="@*android:style/Theme.Material.Panel">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
+        <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="android:colorBackground">#ff121212</item>
+
     </style>
 
     <style name="Theme.DeviceDefault.Light.SearchBar" parent="@*android:style/Theme.Material.SearchBar">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
+        <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Voice" parent="@*android:style/Theme.Material.Voice">
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
+        <item name="android:colorSecondary">@*android:color/black</item>
         <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar">
@@ -272,8 +304,8 @@
         <item name="android:textColorTertiary">#b3f5f5f5</item>
         <item name="android:textColorHint">#ff999999</item>
         <item name="android:textColorAlertDialogListItem">#ffffffff</item>
-
         <item name="android:textColorPrimaryInverse">@*android:color/black</item>
+        <item name="android:colorBackground">#ff121212</item>
     </style>
 
     <style name="Theme.DeviceDefault.Resolver" parent="@*android:style/Theme.Material">
@@ -288,6 +320,9 @@
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
         <item name="android:colorPrimary">@*android:color/black</item>
         <item name="android:colorPrimaryDark">@*android:color/black</item>
-        <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorSecondary">@*android:color/black</item>
+        <item name="android:colorAccent">@*android:color/accent_device_default_light</item>
+        <item name="android:colorBackground">#ff121212</item>
+
     </style>
 </resources>
